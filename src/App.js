@@ -17,7 +17,7 @@ class App extends Component {
 
   _renderMenus = () => {
     return this.data
-      .sort((a, b) => a.order < b.order)
+      .sort((a, b) => a.order > b.order)
       .map((item, key) => (
         <li key={key}><Link to={item.id}>{item.title}</Link></li>)
       )
