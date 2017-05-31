@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-// import dummyTable from './dummyTable.js'
-// import dummyChart from './dummyChart'
-// import dummyList from './dummyList'
 
 import {
   BrowserRouter as Router,
